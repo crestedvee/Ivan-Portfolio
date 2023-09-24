@@ -21,7 +21,7 @@
   align-items: center;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  background: url(./img15.jpeg);
+  background: url(img15.jpeg);
 }
 
 .toggle-mode {
@@ -110,7 +110,7 @@
   justify-content: center;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  background: url(./img16.avif);
+  background: url(img16.avif);
 }
 
 .contact-form {
@@ -341,7 +341,7 @@
   grid-area: footer;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  background: url(./img15.jpeg);
+  background: url(img15.jpeg);
 }
 
 .footer-1 {
