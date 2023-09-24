@@ -699,3 +699,201 @@
     padding-bottom: 1rem;
   }
 }
+
+
+@media only screen and (max-width: 480px) {
+
+  .body {
+    margin: 0;
+    grid-template-rows: 1fr 1fr 5rem;  
+    position: relative;
+    height: 100%;
+  }
+  
+  .dropdown {
+    display: flex;
+  }
+
+  .dropdown:hover {
+    background-color: transparent; ;
+  }
+
+  .dropdown a:hover {
+    background-color:#FFFF00; ;  
+  }
+
+  .my-img {
+    border-radius: 50%;
+    width: 3rem;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-nav.active {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+
+  .header-nav a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+  }
+
+  .header-name h1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav-1 {
+    font-size: 0.9rem;
+    font-weight: bolder;
+  }
+
+  .nav-1:hover {
+    background-color: "#FFFFFF";
+  }
+
+  .toggle-mode {
+    align-self: center;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    text-align: center;
+    height: 2rem;
+  }
+
+  .toggle-mode:hover {
+    background-color: #000000;
+    color: #ffffff; 
+  }
+
+  /*section*/
+  .section {
+    position: absolute;
+    top: 8rem;
+    background: #FFFFFF;
+  }
+
+  /*about me section*/
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-me-text {
+    grid-area: about-me-text;
+  }
+
+  .about-me-text h1 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .about-me-text p {
+    padding-left: 1rem;
+    padding-bottom: 0.8rem;
+    text-align: justify;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+  }
+
+
+  .about-me-img {
+    grid-area: about-me-img;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+  }
+
+  .about-me-img-1 {
+    width: 30%;
+    padding: 1rem;
+    border-radius: 40%;
+  }
+
+
+  /* skills section*/
+
+  .my-skills {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .my-skills h1 {
+    text-align: center;
+  }
+
+
+  /*project section*/
+
+  .my-projects {
+    position: absolute;
+    top: -16rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .my-projects h1 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+  }
+
+  .project-list {
+    justify-content: center;
+
+  }
+
+  .project-detail {
+    width: 70%;
+    margin-top: 1rem;
+  }
+
+
+  .detail-img {
+    width: 90%;
+  }
+  
+
+
+  /*footer section*/
+
+  .footer {
+    position: absolute;
+    display: inline-flex;
+    left: 0;
+    right: 0;
+    top: 182rem;
+    
+  }
+
+  .footer-1 {
+    padding-bottom: 1rem;
+  }
+}
