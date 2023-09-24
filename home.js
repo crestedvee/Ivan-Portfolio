@@ -37,12 +37,12 @@ selectElement.addEventListener("change", (e) => {
     
     sbody.style.color = "#000000";
     sbody.style.opacity = null;
-    mainSection.style.backgroundImage = "url(/images/img16.avif)";
-    headerColor.style.backgroundImage = "url(/images/img15.jpeg)";
-    footerSection.style.backgroundImage = "url(/images/img15.jpeg)";
-    mySkills.style.backgroundImage = "url(/images/img15.jpeg)";
+    mainSection.style.backgroundImage = "url(/img16.avif)";
+    headerColor.style.backgroundImage = "url(/img15.jpeg)";
+    footerSection.style.backgroundImage = "url(/img15.jpeg)";
+    mySkills.style.backgroundImage = "url(/img15.jpeg)";
     pdetail.style.backgroundImage = "none";
-    pdetail.style.backgroundImage = "url(/images/img15.jpeg)";
+    pdetail.style.backgroundImage = "url(/img15.jpeg)";
     imageDiv.style.backgroundColor = "transparent";
     abtxt.style.color = "#282C35";
     abtxt2.style.color = "#282C35";
@@ -59,11 +59,11 @@ selectElement.addEventListener("change", (e) => {
     sbody.style.color = "#f4dbd8";
     sbody.style.backgroundColor = "#282C35";
     sbody.style.opacity = "0.8";
-    headerColor.style.backgroundImage = "url(/images/img13.jpeg)";
-    footerSection.style.backgroundImage = "url(/images/img13.jpeg)";
+    headerColor.style.backgroundImage = "url(/img13.jpeg)";
+    footerSection.style.backgroundImage = "url(/img13.jpeg)";
     mainSection.style.background = "none";
     mainSection.style.backgroundColor = "#282C35";
-    mySkills.style.backgroundImage = "url(/images/img13.jpeg)";
+    mySkills.style.backgroundImage = "url(/img13.jpeg)";
     abtxt.style.color = "#f4dbd8";
     abtxt2.style.color = "#f4dbd8";
     abtxt3.style.color = "#f4dbd8";
@@ -78,7 +78,7 @@ selectElement.addEventListener("change", (e) => {
     navChild2.classList.add("menuClass1");
     navChild3.classList.add("menuClass1");
     navChild4.classList.add("menuClass1");
-    pdetail.style.backgroundImage = "url(/images/img13.jpeg)";
+    pdetail.style.backgroundImage = "url(/img13.jpeg)";
     imageDiv.style.backgroundColor = "transparent";
   }
 });
